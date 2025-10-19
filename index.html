@@ -4,30 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayasofya Charity</title>
-
-  <!-- Stil dosyası bağlantısı -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- JavaScript dosyası bağlantısı -->
   <script defer src="script.js"></script>
 </head>
 <body>
-
-  <!-- Sayfanın üst kısmındaki logo ve başlık -->
-  <div class="logo-section">
-    <img src="images/ayasofya-logo.png" alt="Ayasofya Charity Logo" width="150">
+  <header>
+    <img src="images/ayasofya-logo.png" alt="Ayasofya Logo" width="150">
     <h1>Ayasofya Charity</h1>
-    <p>Bağışlarınızla Ayasofya'nın korunmasına destek olun.</p>
-  </div>
+    <p>Pi Network üzerinden bağış yapabilirsiniz</p>
+  </header>
 
-  <!-- Bağış formu -->
-  <div class="container">
-    <h2>Ayasofya Charity Bağış Sayfasına Hoş Geldiniz</h2>
-    <p>Bu sayfa Pi Network bağış sistemi için test amaçlıdır.</p>
-    <input type="number" id="amount" placeholder="Bağış Miktarı (Pi)">
-    <button id="donateBtn">Bağış Yap</button>
-    <p id="status"></p>
-  </div>
+  <main>
+    <section id="about">
+      <h2>Hakkımızda</h2>
+      <p>Ayasofya Charity, ihtiyaç sahiplerine destek olmak amacıyla kurulmuş bir bağış platformudur. Pi Network ağı üzerinden güvenli ve şeffaf bağış yapılmasını sağlar.</p>
+    </section>
 
+    <section id="donate">
+      <h2>Bağış Yap</h2>
+      <p>Bağışlarınızı Pi Wallet üzerinden gerçekleştirebilirsiniz.</p>
+      <button onclick="window.location.href='https://minepi.com'">Pi Wallet ile Bağış Yap</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ayasofya Charity | Tüm hakları saklıdır.</p>
+  </footer>
 </body>
 </html>
